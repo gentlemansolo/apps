@@ -6,7 +6,7 @@
 	<style>
 		html.pc,
 		body.pc {
-			background: url(static/bg.jpg) no-repeat;
+			background: url({{ '/static/bg.jpg' | relative_url }}) no-repeat;
 			background-size: 100% auto;
 		}
 	</style>
@@ -19,13 +19,13 @@
 	<meta data-n-head="true" data-hid="og:description" name="og:description" property="og:description"
 		content="应用助手福利导航最新地址,打造最全面的福利导航,及时收录各种福利网站,宅男腐女的爱好导航,幸福生活,从a.seyu88.tv开始。">
 	<meta data-n-head="true" data-hid="og:title" name="og:title" content="欲花园">
-	<link rel="stylesheet" href="static/iconfont.css">
-	<link rel="stylesheet" href="static/common.css">
-	<link rel="stylesheet" href="static/swiper.min.css">
-	<script src="static/common.js"></script>
-	<script src="static/jquery.min.js"></script>
-	<script src="static/swiper.min.js"></script>
-	<script src="static/jquery.qrcode.min.js"></script>
+	<link rel="stylesheet" href="{{ '/static/iconfont.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/static/common.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/static/swiper.min.css' | relative_url }}">
+	<script src="{{ '/static/common.js' | relative_url }}"></script>
+	<script src="{{ '/static/jquery.min.js' | relative_url }}"></script>
+	<script src="{{ '/static/swiper.min.js' | relative_url }}"></script>
+	<script src="{{ '/static/jquery.qrcode.min.js' | relative_url }}"></script>
 </head>
 
 <body class="pc">
@@ -34,7 +34,7 @@
 			<div class="header-wrap">
 				<div class="header-inner">
 					<div class="col-center">
-						<img src="static/logo256.png" alt="" class="img-logo">
+						<img src="{{ '/static/logo256.png' | relative_url }}" alt="" class="img-logo">
 						<div class="site-name">欲花园应用中心</div>
 					</div>
 				</div>
@@ -52,19 +52,19 @@
 						<div class="swiper-wrapper" style="transform: translate3d(-2100px, 0px, 0px); transition-duration: 0ms;">
 							<div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
 								onclick="javascript:location.href=&#39;http://vip.lusir026.com/aff/h&#39;"
-								style="background: url(&quot;static/banner_2.jpg?_v=&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
+								style="background: url(&quot;{{ '/static/banner_2.jpg?_v=' | relative_url }}&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
 								data-swiper-slide-index="1"></div>
 							<div class="swiper-slide swiper-slide-duplicate-active"
 								onclick="javascript:location.href=&#39;https://aff.91jsq.org&#39;"
-								style="background: url(&quot;static/vpnbanner.png?_v=&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
+								style="background: url(&quot;{{ '/static/vpnbanner.png?_v=' | relative_url }}&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
 								data-swiper-slide-index="0"></div>
 							<div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
 								onclick="javascript:location.href=&#39;http://vip.lusir026.com/aff/h&#39;"
-								style="background: url(&quot;static/banner_2.jpg?_v=&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
+								style="background: url(&quot;{{ '/static/banner_2.jpg?_v=' | relative_url }}&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
 								data-swiper-slide-index="1"></div>
 							<div class="swiper-slide swiper-slide-duplicate swiper-slide-active"
 								onclick="javascript:location.href=&#39;https://aff.91jsq.org/&#39;"
-								style="background: url(&quot;static/vpnbanner.png?_v=&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
+								style="background: url(&quot;{{ '/static/vpnbanner.png?_v=' | relative_url }}&quot;) 50% 50% / cover no-repeat rgb(242, 242, 242); width: 690px; margin-right: 10px;"
 								data-swiper-slide-index="0"></div>
 						</div>
 						<!-- Add Pagination -->
@@ -80,7 +80,7 @@
 					<div class="list-wrap">
 						<div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(10)">
-                                                                <img src="static/51.png" alt="51短视频">
+                                                                <img src="{{ '/static/51.png' | relative_url }}" alt="51短视频">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -92,7 +92,7 @@
                                                                         <div class="btn-wrap btn-download" data-id="10"
                                                                                  data-ioslink="https://aff.i51.club/"
                                                                                  data-androidlink="https://aff.i51.club">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">最火成人短视频,网黄聚集地</div>
@@ -100,7 +100,7 @@
                                                 </div>
 						<div class="item-wrap">
 							<div class="img-wrap" onclick="toinfo(10)">
-								<img src="static/hilanglogo.png" alt="嗨浪社区">
+								<img src="{{ '/static/hilanglogo.png' | relative_url }}" alt="嗨浪社区">
 							</div>
 							<div class="content">
 								<div class="row1">
@@ -112,7 +112,7 @@
 									<div class="btn-wrap btn-download" data-id="10"
 										 data-ioslink="http://vip.lusir026.com/aff/h"
 										 data-androidlink="http://vip.lusir026.com/aff/h">
-										<img src="static/download.png" alt=""> 下载
+										<img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
 									</div>
 								</div>
 								<div class="desc">成人抖音,直播,1v1裸聊,约炮换妻成人社区</div>
@@ -120,7 +120,7 @@
 						</div>
 						<div class="item-wrap">
 							<div class="img-wrap" onclick="toinfo(5)">
-								<img src="static/lusirlogo.png" alt="撸先生">
+								<img src="{{ '/static/lusirlogo.png' | relative_url }}" alt="撸先生">
 							</div>
 							<div class="content">
 								<div class="row1">
@@ -132,7 +132,7 @@
 									<div class="btn-wrap btn-download" data-id="5"
 										 data-ioslink="http://share.seyuyl.com:10098/"
 										 data-androidlink="http://share.seyuyl.com:10098/">
-										<img src="static/download.png" alt=""> 下载
+										<img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
 									</div>
 								</div>
 								<div class="desc">看片神器,天天更新岛国大片,国产小视频</div>
@@ -140,7 +140,7 @@
 						</div>
 						<div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(10)">
-                                                                <img src="static/hy.png" alt="花样影视">
+                                                                <img src="{{ '/static/hy.png' | relative_url }}" alt="花样影视">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -152,7 +152,7 @@
                                                                         <div class="btn-wrap btn-download" data-id="10"
                                                                                  data-ioslink="https://i.hyys.me/"
                                                                                  data-androidlink="https://i.hyys.me">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">全网vip影视剧免费看不停</div>
@@ -160,7 +160,7 @@
                                                 </div>
 						<div class="item-wrap">
 							<div class="img-wrap" onclick="toinfo(16)">
-								<img src="static/91vpn.png" alt="蚂蚁加速器">
+								<img src="{{ '/static/91vpn.png' | relative_url }}" alt="蚂蚁加速器">
 							</div>
 							<div class="content">
 								<div class="row1">
@@ -172,7 +172,7 @@
 									<div class="btn-wrap btn-download" data-id="16"
 										 data-ioslink="https://aff.91jsq.org"
 										 data-androidlink="https://aff.91jsq.org">
-										<img src="static/download.png" alt=""> 下载
+										<img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
 									</div>
 								</div>
 								<div class="desc">91旗下VPN,油管推特随意刷,放眼看世界</div>
@@ -186,7 +186,7 @@
                                                 
                                                         <div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(22)">
-                                                                <img src="static/st.png" alt="搜同社区">
+                                                                <img src="{{ '/static/st.png' | relative_url }}" alt="搜同社区">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -197,7 +197,7 @@
                                                                         </div>
                                                                         <div class="btn-wrap btn-download" data-id="22" data-ioslink="http://st.city"
                                                                                 data-androidlink="http://st.city">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">搜同社区,1&0速配男男私密圈</div>
@@ -207,7 +207,7 @@
 							
 							<div class="item-wrap">
 							<div class="img-wrap" onclick="toinfo(22)">
-								<img src="static/longzhulogo.png" alt="龙珠棋牌">
+								<img src="{{ '/static/longzhulogo.png' | relative_url }}" alt="龙珠棋牌">
 							</div>
 							<div class="content">
 								<div class="row1">
@@ -218,7 +218,7 @@
 									</div>
 									<div class="btn-wrap btn-download" data-id="22" data-ioslink="https://gw.nytdnengyuan.com/6431.html"
 										data-androidlink="https://gw.nytdnengyuan.com/6431.html">
-										<img src="static/download.png" alt=""> 下载
+										<img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
 									</div>
 								</div>
 								<div class="desc">龙珠娱乐，搏一搏，单车变摩托</div>
@@ -226,7 +226,7 @@
 						</div>
 						<div class="item-wrap">
 							<div class="img-wrap" onclick="toinfo(6)">
-								<img src="static/dl.png" alt="淡蓝视频">
+								<img src="{{ '/static/dl.png' | relative_url }}" alt="淡蓝视频">
 							</div>
 							<div class="content">
 								<div class="row1">
@@ -238,7 +238,7 @@
 									<div class="btn-wrap btn-download" data-id="6"
 										 data-ioslink="http://dlgv.app/"
 										 data-androidlink="http://dlgv.app/">
-										<img src="static/download.png" alt=""> 下载
+										<img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
 									</div>
 								</div>
 								<div class="desc">同你所想同你所爱，男同版爱奇艺</div>
@@ -246,7 +246,7 @@
 						</div>
 						 <div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(16)">
-                                                                <img src="static/ks.png" alt="快手成人版">
+                                                                <img src="{{ '/static/ks.png' | relative_url }}" alt="快手成人版">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -258,7 +258,7 @@
                                                                         <div class="btn-wrap btn-download" data-id="16"
                                                                                 data-ioslink="http://ks.tips/"
                                                                                 data-androidlink="http://ks.tips/">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">全网最火直播大秀,性感主播等你来撩</div>
@@ -266,7 +266,7 @@
                                                 </div>
 						<div class="item-wrap">
 							<div class="img-wrap" onclick="toinfo(7)">
-								<img src="static/tbr.png" alt="汤不热">
+								<img src="{{ '/static/tbr.png' | relative_url }}" alt="汤不热">
 							</div>
 							<div class="content">
 								<div class="row1">
@@ -278,7 +278,7 @@
 									<div class="btn-wrap btn-download" data-id="7"
 										 data-ioslink="http://tbr.life/"
 										 data-androidlink="http://tbr.life/">
-										<img src="static/download.png" alt=""> 下载
+										<img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
 									</div>
 								</div>
 								<div class="desc">亚洲最大网黄聚集地,因为懂你所以上瘾</div>
@@ -286,7 +286,7 @@
 						</div>
 						 <div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(22)">
-                                                                <img src="static/kx.png" alt="凯旋棋牌">
+                                                                <img src="{{ '/static/kx.png' | relative_url }}" alt="凯旋棋牌">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -297,7 +297,7 @@
                                                                         </div>
                                                                         <div class="btn-wrap btn-download" data-id="22" data-ioslink="https://7ba.hzqingya.com/kxzq91av01.html"
                                                                                 data-androidlink="https://7ba.hzqingya.com/kxzq91av01.html">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">凯旋娱乐，带给你不一样的金喜</div>
@@ -305,7 +305,7 @@
                                                 </div>
 						<div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(22)">
-                                                                <img src="static/kx.png" alt="凯旋棋牌">
+                                                                <img src="{{ '/static/kx.png' | relative_url }}" alt="凯旋棋牌">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -317,7 +317,7 @@
                                                                         <div class="btn-wrap btn-download" data-id="22" 
 										data-ioslink="https://xk01.cn/fMfKyoam.html?7VhEE=MZxMIsFDOgKefnT6PyEAZZz0kxh4xg6wTNyrQ8MUaxp"
                                                                                 data-androidlink="https://xk01.cn/fMfKyoam.html?7VhEE=MZxMIsFDOgKefnT6PyEAZZz0kxh4xg6wTNyrQ8MUaxp">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">凯旋娱乐，带给你不一样的金喜</div>
@@ -325,7 +325,7 @@
                                                 </div>
 						 <div class="item-wrap">
                                                         <div class="img-wrap" onclick="toinfo(22)">
-                                                                <img src="static/sn.png" alt="少女棋牌">
+                                                                <img src="{{ '/static/sn.png' | relative_url }}" alt="少女棋牌">
                                                         </div>
                                                         <div class="content">
                                                                 <div class="row1">
@@ -337,7 +337,7 @@
                                                                         <div class="btn-wrap btn-download" data-id="22" 
 										data-ioslink="https://nqv6.4216i9.com/Cz76bgr.html?40FOF=RruYNT5X2wLiI32SiH9UHlJtx2BYtPvxOoaRuayxUKd"
 										data-androidlink="https://nqv6.4216i9.com/Cz76bgr.html?40FOF=RruYNT5X2wLiI32SiH9UHlJtx2BYtPvxOoaRuayxUKd">
-                                                                                <img src="static/download.png" alt=""> 下载
+                                                                                <img src="{{ '/static/download.png' | relative_url }}" alt=""> 下载
                                                                         </div>
                                                                 </div>
                                                                 <div class="desc">少女棋牌，迎娶白富美，走上人生巅峰</div>
@@ -352,17 +352,17 @@
 	</div>
 	<div class="screen-help">
 		<div class="help-inner">
-			<img src="static/screen-help-close.png" class="img-close">
-			<img src="static/screen-help.png" class="screenshot">
+			<img src="{{ '/static/screen-help-close.png' | relative_url }}" class="img-close">
+			<img src="{{ '/static/screen-help.png' | relative_url }}" class="screenshot">
 		</div>
 	</div>
 	<div class="add-screen">
 		<div class="col1">
 			<div class="close-wrap">
-				<img src="static/screen-close.png" class="img-close">
+				<img src="{{ '/static/screen-close.png' | relative_url }}" class="img-close">
 			</div>
 
-			<img src="static/logo256.png" class="img-logo ios">
+			<img src="{{ '/static/logo256.png' | relative_url }}" class="img-logo ios">
 		</div>
 		<div class="text ios">将欲花园应用中心新增至主画面</div>
 		<div class="text android">将本站保存至书签，老司机永不迷路！</div>
@@ -384,7 +384,7 @@
 					<div class="text">Android 版</div>
 				</div>
 			</div>
-			<div class="close-wrap"><img src="static/close.png" alt="close"></div>
+			<div class="close-wrap"><img src="{{ '/static/close.png' | relative_url }}" alt="close"></div>
 		</div>
 	</div>
 	<script>
